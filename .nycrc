@@ -1,0 +1,17 @@
+{
+  "require": [
+    "babel-register"
+  ],
+  "exclude": [
+    "src/bootstrap.js"
+  ],
+  "include": [
+    "src/**/*.js"
+  ],
+  "reporter": [
+    "html",
+    "text"
+  ],
+  "sourceMap": false,
+  "instrument": false
+}
